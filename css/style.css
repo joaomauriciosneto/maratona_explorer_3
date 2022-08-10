@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Serif', serif;
+    background: #FFEDD5;
+    display: flex;
+    justify-content: center; 
+}
+
+header {
+    width: 300px;
+    height: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    height: 37px;
+    background: #FED7AA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.brunch,
+.drinks{
+    width: 300px;
+    height: 363px;
+}
+
+.sufix-rocket {
+    color: #995000;
+}
+
+.open {
+    font-size: 14px;
+}
+
+.items, 
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.brunch-details,
+.drinks-details {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    width: 240px;
+    font-size: 14px;
+    margin-top: 8px;
+}
